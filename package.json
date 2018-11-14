@@ -1,0 +1,18 @@
+{
+  "name": "simple-push-notification",
+  "version": "1.0.0",
+  "description": "simple app which implements a persistent push notification through service workers",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mysql2": "^1.6.4",
+    "sequelize": "^4.41.2",
+    "web-push": "^3.3.3"
+  }
+}
